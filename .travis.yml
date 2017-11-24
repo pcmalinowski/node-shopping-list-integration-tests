@@ -1,2 +1,9 @@
 language: node_js
-node_js: node
+node_js: nodegit
+deploy:
+  provider: heroku
+  api_key:
+    secure: P5AnwsMQ1Y8uve4wncU6a6UofXa05O2p2UgoDL0zdgQU0IALeKhWSqsYAB0uxqV83G0llE+b0S8c1EBMCCYo9JxS+6PtbkVH+nkeEbAvivhzokny1Z12rvTlpDSi2ey4rCqI2Z2kFPueqkPayuLxJ8bxvc/XO+WdLxDP0K7/6jD7ZVwCEnq15uKrO4XcnHlfLrDD2XPVI8XX/lck87FygXoHGJpBlrhW+xArEMr6UQIPn1BF3Oe2BXsSLDRyGpLwn11MZWdxpGOQo6S90W829VK+DlASw3jl5MDZzimHjQ6+9tl9xEQY9FzQb5tJmV0YmT5vHq+kJinRo0ukZg/ZJn1uPD2MAeO88FD7+8cbdPSgODPAUAJMHL7DeCAU11gVgP265p8mnWb6+7a0dlQ4GQOtiTRdKpg30mbL82WqizRh3BAAkzKSPRNXAKI8y594UU8RIVhqbn06XWP9BDgAXCv6/yMYmvnQimReTUih/05NXiXAGXZtnBcE1oDL6DSjqT7KFolVgUR+OpnTIUhc1mx0PflqvYQVDRAGg4kgmgBOhCKT2B2M1TK8/K1qFIRSxsScX+mvnmwzdDI26eBXylLIQsXO2zTXE504JB2/EimmBNEwdwXsp7265K5BiPLRWs3YvyidNqqvrFOw9vD2o7cYX2xB96u/4C+Qv29Mmd0=
+  app: https://secret-ocean-62791.herokuapp.com/
+  on:
+    repo: pcmalinowski/node-shopping-list-integration-tests
